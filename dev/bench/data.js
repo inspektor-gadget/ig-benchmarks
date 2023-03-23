@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679576665951,
+  "lastUpdate": 1679577318703,
   "repoUrl": "https://github.com/inspektor-gadget/inspektor-gadget",
   "entries": {
     "Gadget benchmarks": [
@@ -40980,6 +40980,566 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkAllGadgetsWithContainers/container100/trace-tcpconnect",
             "value": 298316618,
+            "unit": "ns/op",
+            "extra": "4 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "inspektor-gadget",
+            "username": "inspektor-gadget"
+          },
+          "committer": {
+            "name": "inspektor-gadget",
+            "username": "inspektor-gadget"
+          },
+          "id": "f46a2866cce66e7b644d6c68ff96f6616d7aa0b4",
+          "message": "go: bump github.com/containers/common from 0.51.0 to 0.51.1",
+          "timestamp": "2023-03-23T06:00:42Z",
+          "url": "https://github.com/inspektor-gadget/inspektor-gadget/pull/1467/commits/f46a2866cce66e7b644d6c68ff96f6616d7aa0b4"
+        },
+        "date": 1679577318163,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkSnapshotProcessEBPFTracer",
+            "value": 221883373,
+            "unit": "ns/op",
+            "extra": "5 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkSnapshotProcessProcfsTracer",
+            "value": 2356553,
+            "unit": "ns/op",
+            "extra": "495 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/-traceloop",
+            "value": 55409722,
+            "unit": "ns/op",
+            "extra": "22 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/advise-seccomp",
+            "value": 24202662,
+            "unit": "ns/op",
+            "extra": "68 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/audit-seccomp",
+            "value": 58665136,
+            "unit": "ns/op",
+            "extra": "21 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/profile-cpu",
+            "value": 172518219,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/snapshot-process",
+            "value": 220676504,
+            "unit": "ns/op",
+            "extra": "5 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/snapshot-socket",
+            "value": 568138075,
+            "unit": "ns/op",
+            "extra": "2 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/top-ebpf",
+            "value": 230446990,
+            "unit": "ns/op",
+            "extra": "5 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/top-file",
+            "value": 178213245,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/top-tcp",
+            "value": 187116085,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/trace-bind",
+            "value": 446520561,
+            "unit": "ns/op",
+            "extra": "3 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/trace-capabilities",
+            "value": 190642708,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/trace-dns",
+            "value": 1064064849,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/trace-exec",
+            "value": 109875524,
+            "unit": "ns/op",
+            "extra": "10 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/trace-fsslower",
+            "value": 540814954,
+            "unit": "ns/op",
+            "extra": "2 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/trace-mount",
+            "value": 174710900,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/trace-network",
+            "value": 592599,
+            "unit": "ns/op",
+            "extra": "1822 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/trace-oomkill",
+            "value": 69268364,
+            "unit": "ns/op",
+            "extra": "19 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/trace-open",
+            "value": 172067803,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/trace-signal",
+            "value": 106507845,
+            "unit": "ns/op",
+            "extra": "12 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/trace-sni",
+            "value": 1101549494,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/trace-tcp",
+            "value": 690412136,
+            "unit": "ns/op",
+            "extra": "2 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container0/trace-tcpconnect",
+            "value": 299074705,
+            "unit": "ns/op",
+            "extra": "4 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/-traceloop",
+            "value": 81298804,
+            "unit": "ns/op",
+            "extra": "14 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/advise-seccomp",
+            "value": 22478916,
+            "unit": "ns/op",
+            "extra": "68 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/audit-seccomp",
+            "value": 57308224,
+            "unit": "ns/op",
+            "extra": "21 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/profile-cpu",
+            "value": 185179148,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/snapshot-process",
+            "value": 226844001,
+            "unit": "ns/op",
+            "extra": "5 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/snapshot-socket",
+            "value": 569151626,
+            "unit": "ns/op",
+            "extra": "2 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/top-ebpf",
+            "value": 222970207,
+            "unit": "ns/op",
+            "extra": "5 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/top-file",
+            "value": 178478268,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/top-tcp",
+            "value": 190310910,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/trace-bind",
+            "value": 430764971,
+            "unit": "ns/op",
+            "extra": "3 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/trace-capabilities",
+            "value": 198677107,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/trace-dns",
+            "value": 1102133983,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/trace-exec",
+            "value": 109545728,
+            "unit": "ns/op",
+            "extra": "10 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/trace-fsslower",
+            "value": 554774614,
+            "unit": "ns/op",
+            "extra": "2 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/trace-mount",
+            "value": 179932787,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/trace-network",
+            "value": 17861937,
+            "unit": "ns/op",
+            "extra": "82 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/trace-oomkill",
+            "value": 67777693,
+            "unit": "ns/op",
+            "extra": "19 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/trace-open",
+            "value": 176451694,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/trace-signal",
+            "value": 110502364,
+            "unit": "ns/op",
+            "extra": "10 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/trace-sni",
+            "value": 1220803937,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/trace-tcp",
+            "value": 689200978,
+            "unit": "ns/op",
+            "extra": "2 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container1/trace-tcpconnect",
+            "value": 291112919,
+            "unit": "ns/op",
+            "extra": "4 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/-traceloop",
+            "value": 363934393,
+            "unit": "ns/op",
+            "extra": "3 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/advise-seccomp",
+            "value": 23649256,
+            "unit": "ns/op",
+            "extra": "66 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/audit-seccomp",
+            "value": 57557300,
+            "unit": "ns/op",
+            "extra": "21 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/profile-cpu",
+            "value": 179607474,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/snapshot-process",
+            "value": 232849823,
+            "unit": "ns/op",
+            "extra": "5 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/snapshot-socket",
+            "value": 574783628,
+            "unit": "ns/op",
+            "extra": "2 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/top-ebpf",
+            "value": 227687266,
+            "unit": "ns/op",
+            "extra": "5 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/top-file",
+            "value": 179091205,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/top-tcp",
+            "value": 187334706,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/trace-bind",
+            "value": 439472898,
+            "unit": "ns/op",
+            "extra": "3 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/trace-capabilities",
+            "value": 195949248,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/trace-dns",
+            "value": 1427048739,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/trace-exec",
+            "value": 108956324,
+            "unit": "ns/op",
+            "extra": "10 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/trace-fsslower",
+            "value": 567952084,
+            "unit": "ns/op",
+            "extra": "2 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/trace-mount",
+            "value": 183268877,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/trace-network",
+            "value": 168774015,
+            "unit": "ns/op",
+            "extra": "7 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/trace-oomkill",
+            "value": 68686525,
+            "unit": "ns/op",
+            "extra": "19 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/trace-open",
+            "value": 171662146,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/trace-signal",
+            "value": 111439900,
+            "unit": "ns/op",
+            "extra": "12 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/trace-sni",
+            "value": 2391757251,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/trace-tcp",
+            "value": 688433675,
+            "unit": "ns/op",
+            "extra": "2 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container10/trace-tcpconnect",
+            "value": 304878004,
+            "unit": "ns/op",
+            "extra": "4 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/-traceloop",
+            "value": 3223129568,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/advise-seccomp",
+            "value": 24769019,
+            "unit": "ns/op",
+            "extra": "63 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/audit-seccomp",
+            "value": 58662626,
+            "unit": "ns/op",
+            "extra": "20 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/profile-cpu",
+            "value": 189479208,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/snapshot-process",
+            "value": 221659271,
+            "unit": "ns/op",
+            "extra": "5 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/snapshot-socket",
+            "value": 600209003,
+            "unit": "ns/op",
+            "extra": "2 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/top-ebpf",
+            "value": 223883341,
+            "unit": "ns/op",
+            "extra": "5 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/top-file",
+            "value": 172299731,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/top-tcp",
+            "value": 191437011,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/trace-bind",
+            "value": 435356511,
+            "unit": "ns/op",
+            "extra": "3 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/trace-capabilities",
+            "value": 191302720,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/trace-dns",
+            "value": 4760356278,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/trace-exec",
+            "value": 110887392,
+            "unit": "ns/op",
+            "extra": "10 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/trace-fsslower",
+            "value": 557574841,
+            "unit": "ns/op",
+            "extra": "2 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/trace-mount",
+            "value": 181762126,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/trace-network",
+            "value": 1709669403,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/trace-oomkill",
+            "value": 68342040,
+            "unit": "ns/op",
+            "extra": "19 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/trace-open",
+            "value": 177674696,
+            "unit": "ns/op",
+            "extra": "7 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/trace-signal",
+            "value": 110857450,
+            "unit": "ns/op",
+            "extra": "10 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/trace-sni",
+            "value": 14848451550,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/trace-tcp",
+            "value": 692388246,
+            "unit": "ns/op",
+            "extra": "2 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsWithContainers/container100/trace-tcpconnect",
+            "value": 300471174,
             "unit": "ns/op",
             "extra": "4 times\n2 procs"
           }
