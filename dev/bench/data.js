@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794220216845,
+  "lastUpdate": 1794221830689,
   "repoUrl": "https://github.com/inspektor-gadget/inspektor-gadget",
   "entries": {
     "Gadget benchmarks": [
@@ -2944274,6 +2944274,128 @@ window.BENCHMARK_DATA = {
             "value": 1962648,
             "unit": "ns/op",
             "extra": "600 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "inspektor-gadget",
+            "username": "inspektor-gadget"
+          },
+          "committer": {
+            "name": "inspektor-gadget",
+            "username": "inspektor-gadget"
+          },
+          "id": "b3307778f7ee34b3068bc4b7fff380f54f67837b",
+          "message": "ci: bump github/codeql-action/analyze from 4.39.1 to 4.39.3",
+          "timestamp": "2026-11-09T10:40:02Z",
+          "url": "https://github.com/inspektor-gadget/inspektor-gadget/pull/5941/commits/b3307778f7ee34b3068bc4b7fff380f54f67837b"
+        },
+        "date": 1794221828168,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkCreateContainerCollection (github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection)",
+            "value": 765.7,
+            "unit": "ns/op\t    1400 B/op\t      14 allocs/op",
+            "extra": "1558586 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCreateContainerCollection (github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection) - ns/op",
+            "value": 765.7,
+            "unit": "ns/op",
+            "extra": "1558586 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCreateContainerCollection (github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection) - B/op",
+            "value": 1400,
+            "unit": "B/op",
+            "extra": "1558586 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkCreateContainerCollection (github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection) - allocs/op",
+            "value": 14,
+            "unit": "allocs/op",
+            "extra": "1558586 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkLookupContainerByMntns (github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection)",
+            "value": 39.39,
+            "unit": "ns/op",
+            "extra": "30381912 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkLookupContainerByNetns (github.com/inspektor-gadget/inspektor-gadget/pkg/container-collection)",
+            "value": 42.59,
+            "unit": "ns/op",
+            "extra": "28121160 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkKernelSymbolAddressJITParsing (github.com/inspektor-gadget/inspektor-gadget/pkg/kallsyms)",
+            "value": 89000732,
+            "unit": "ns/op\t    4216 B/op\t       4 allocs/op",
+            "extra": "13 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkKernelSymbolAddressJITParsing (github.com/inspektor-gadget/inspektor-gadget/pkg/kallsyms) - ns/op",
+            "value": 89000732,
+            "unit": "ns/op",
+            "extra": "13 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkKernelSymbolAddressJITParsing (github.com/inspektor-gadget/inspektor-gadget/pkg/kallsyms) - B/op",
+            "value": 4216,
+            "unit": "B/op",
+            "extra": "13 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkKernelSymbolAddressJITParsing (github.com/inspektor-gadget/inspektor-gadget/pkg/kallsyms) - allocs/op",
+            "value": 4,
+            "unit": "allocs/op",
+            "extra": "13 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkKernelSymbolAddressPreLoading (github.com/inspektor-gadget/inspektor-gadget/pkg/kallsyms)",
+            "value": 180761030,
+            "unit": "ns/op\t78946024 B/op\t  490158 allocs/op",
+            "extra": "6 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkKernelSymbolAddressPreLoading (github.com/inspektor-gadget/inspektor-gadget/pkg/kallsyms) - ns/op",
+            "value": 180761030,
+            "unit": "ns/op",
+            "extra": "6 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkKernelSymbolAddressPreLoading (github.com/inspektor-gadget/inspektor-gadget/pkg/kallsyms) - B/op",
+            "value": 78946024,
+            "unit": "B/op",
+            "extra": "6 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkKernelSymbolAddressPreLoading (github.com/inspektor-gadget/inspektor-gadget/pkg/kallsyms) - allocs/op",
+            "value": 490158,
+            "unit": "allocs/op",
+            "extra": "6 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkSingle (github.com/inspektor-gadget/inspektor-gadget/pkg/process-helpers)",
+            "value": 29913,
+            "unit": "ns/op",
+            "extra": "40156 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkAllProcessesSeq (github.com/inspektor-gadget/inspektor-gadget/pkg/process-helpers)",
+            "value": 4434609,
+            "unit": "ns/op",
+            "extra": "268 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkAllProcessesParallel (github.com/inspektor-gadget/inspektor-gadget/pkg/process-helpers)",
+            "value": 1626415,
+            "unit": "ns/op",
+            "extra": "763 times\n4 procs"
           }
         ]
       }
