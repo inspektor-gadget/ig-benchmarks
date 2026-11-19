@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794999197657,
+  "lastUpdate": 1795061460045,
   "repoUrl": "https://github.com/inspektor-gadget/inspektor-gadget",
   "entries": {
     "Gadget benchmarks": [
@@ -2951170,6 +2951170,44 @@ window.BENCHMARK_DATA = {
             "value": 2095498,
             "unit": "ns/op",
             "extra": "568 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "inspektor-gadget",
+            "username": "inspektor-gadget"
+          },
+          "committer": {
+            "name": "inspektor-gadget",
+            "username": "inspektor-gadget"
+          },
+          "id": "8eb3d69d8761fdd09f7a1193fbcaa974489674c0",
+          "message": "go: bump github.com/containerd/nri from 0.9.0 to 0.12.5",
+          "timestamp": "2026-11-18T22:23:03Z",
+          "url": "https://github.com/inspektor-gadget/inspektor-gadget/pull/5977/commits/8eb3d69d8761fdd09f7a1193fbcaa974489674c0"
+        },
+        "date": 1795061457133,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkSingle",
+            "value": 35715,
+            "unit": "ns/op",
+            "extra": "32793 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkAllProcessesSeq",
+            "value": 5814622,
+            "unit": "ns/op",
+            "extra": "204 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkAllProcessesParallel",
+            "value": 2206671,
+            "unit": "ns/op",
+            "extra": "549 times\n4 procs"
           }
         ]
       }
